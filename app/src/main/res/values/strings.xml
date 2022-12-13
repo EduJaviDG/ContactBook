@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account">Already Have an Account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot">FORGOT PASSWORD?</string>
+    <string name="newUser">New User?</string>
+    <string name="register">Register Now</string>
+    <string name="name">Name</string>
+    <string name="newAccount">Create Account?</string>
+    <string name="newRegister">Sign Up</string>
+    <string name="check">Confirm Password</string>
+    <string name="addUser">Add</string>
+    <string name="currentUser">edu@gmail.com</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="error">Error</string>
+    <string name="accept">Accept</string>
+    <string name="empty">Please fill out the fields</string>
+    <string name="success">Success</string>
+    <string name="match">Passwords not match</string>
+    <string name="succesfuly">Registration Successful!</string>
+    <string name="addSuccess">Successfully Added!</string>
+    <string name="updateSuccess">Update Successful!</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="deleteContact">Are you sure you want to delete?</string>
+    <string name="removed">Succesfully removed:</string>
+    <string name="deleteAll">Delete All Users</string>
+    <string name="deleteAllUsers">Are you sure you want to Delete All Users?</string>
+</resources>

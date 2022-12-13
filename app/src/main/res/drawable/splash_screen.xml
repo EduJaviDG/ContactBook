@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:endColor="@color/colorPrimary"
+                android:centerColor="@color/colorPrimaryGradCent"
+                android:startColor="@color/colorPrimaryGradEnd"
+                />
+                 <padding
+                     android:top="17dp"
+                     android:bottom="17dp"
+                     android:right="17dp"
+                     android:left="17dp"
+                     />
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_contact_book"
+          android:gravity="center"/>
+</layer-list>

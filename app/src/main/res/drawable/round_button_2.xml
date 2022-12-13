@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //primary variant_2 #FF4DB0DF
+    //primary variant_1 #FF29A5E1
+
+    <gradient
+        android:endColor="@color/colorPrimaryGradEnd"
+        android:centerColor="@color/colorPrimaryGradCent"
+        android:startColor="@color/colorPrimary"
+
+        />
+    //#FF036A9C
+
+    <stroke
+
+
+        android:color="@color/colorPrimarydark"
+        android:width="1dp"
+
+        />
+    <padding
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp" />
+
+    <corners android:radius="10dp"/>
+
+
+</shape>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "155721583368",
+    "project_id": "contact-book-72688",
+    "storage_bucket": "contact-book-72688.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155721583368:android:9e3e0db6713b533f28fabd",
+        "android_client_info": {
+          "package_name": "com.example.contact_book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155721583368-81qdgio5kivqapn26iu076ldsql7uu3e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.contact_book",
+            "certificate_hash": "7511832c8c1fbf8fa0b12736b585866f67e14963"
+          }
+        },
+        {
+          "client_id": "155721583368-0it57q5stc51bsqipra3klfpc5dkujv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkM-USCvMdkfZK7h7E_VEMGTty9Dqw1lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155721583368-0it57q5stc51bsqipra3klfpc5dkujv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
