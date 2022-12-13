@@ -46,7 +46,6 @@ class AddFragment : Fragment() {
         super.onCreate(savedInstanceState)
 
 
-
     }
 
     override fun onCreateView(
