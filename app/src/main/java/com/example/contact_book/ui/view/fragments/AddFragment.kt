@@ -45,7 +45,7 @@ class AddFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        (requireActivity() as AppCompatActivity).supportActionBar?.show()
+        //(requireActivity() as AppCompatActivity).supportActionBar?.show()
 
     }
 
