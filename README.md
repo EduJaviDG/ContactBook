@@ -1,4 +1,4 @@
-# ContactBook
+# ContactBook (MVVM, DaggerHilt, Room, Firebase)
 Work Contact List
 
 IDE --> Android Studio Bumblebee | 2021.1.1 Patch 2
@@ -10,6 +10,10 @@ Emulator Recommeded --> Pixel 4 XL API 30
 Architecture --> Clean Architecture
 
 Architecture Pattern --> MVVM
+
+Injecting Dependencies --> Dagger Hilt
+
+Database --> Room
 
 Firebase --> Firebase Authentication, FireStore
 
