@@ -2,7 +2,6 @@ package com.example.contact_book.ui.view.fragments
 
 import android.Manifest
 import android.app.Activity
-import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -12,7 +11,6 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.view.*
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -30,7 +28,7 @@ import com.example.contact_book.databinding.FragmentUpdateBinding
 import com.example.contact_book.data.database.user.Enterprise
 import com.example.contact_book.data.database.user.User
 import com.example.contact_book.domain.model.Alert
-import com.example.contact_book.domain.model.pattern
+import com.example.contact_book.util.pattern
 import com.example.contact_book.viewmodel.UserViewModel
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout

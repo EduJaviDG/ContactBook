@@ -1,4 +1,4 @@
-package com.example.contact_book.domain.model.utils
+package com.example.contact_book.util
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

@@ -3,7 +3,7 @@ package com.example.contact_book.data.database.user
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.example.contact_book.domain.model.utils.Converters
+import com.example.contact_book.util.Converters
 
 @Database(entities = [User::class], version = 2)
 @TypeConverters(Converters::class)
