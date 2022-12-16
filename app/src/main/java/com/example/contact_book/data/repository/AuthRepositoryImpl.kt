@@ -1,7 +1,7 @@
 package com.example.contact_book.data.repository
 
 import com.example.contact_book.data.resources.Resource
-import com.example.contact_book.data.utils.await
+import com.example.contact_book.util.await
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest

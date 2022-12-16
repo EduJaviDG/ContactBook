@@ -1,4 +1,4 @@
-package com.example.contact_book.data.utils
+package com.example.contact_book.util
 
 import com.google.android.gms.tasks.Task
 import kotlinx.coroutines.ExperimentalCoroutinesApi

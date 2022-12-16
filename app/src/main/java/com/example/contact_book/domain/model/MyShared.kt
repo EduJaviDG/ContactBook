@@ -3,7 +3,7 @@ package com.example.contact_book.domain.model
 import android.app.Activity
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
-import com.example.contact_book.domain.model.utils.KeyChain
+import com.example.contact_book.util.KeyChain
 
 class MyShared (activity: Activity): SharedPreferences {
 

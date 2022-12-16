@@ -1,19 +1,13 @@
-package com.example.contact_book.ui.view.splash
+package com.example.contact_book.ui.view.activitys
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import com.example.contact_book.R
 import com.example.contact_book.data.database.token.Token
 import com.example.contact_book.domain.model.Session
-import com.example.contact_book.ui.view.activitys.MainActivity
-import com.example.contact_book.ui.view.activitys.AuthActivity
 import com.example.contact_book.viewmodel.SplashViewModel
 import com.example.contact_book.viewmodel.TokenViewModel
 import dagger.hilt.android.AndroidEntryPoint

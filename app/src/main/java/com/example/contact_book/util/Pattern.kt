@@ -1,4 +1,4 @@
-package com.example.contact_book.domain.model
+package com.example.contact_book.util
 
 enum class pattern (val regex: String) {
 
