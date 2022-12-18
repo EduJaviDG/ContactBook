@@ -1,6 +1,6 @@
 package com.example.contact_book.data.repository
 
-import com.example.contact_book.data.resources.Resource
+import com.example.contact_book.resource.Resource
 import com.google.firebase.auth.FirebaseUser
 
 interface AuthRepository {

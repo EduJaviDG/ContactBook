@@ -2,7 +2,7 @@ package com.example.contact_book.viewmodel
 
 import androidx.lifecycle.*
 import com.example.contact.domain.usecase.usecaseAuth.UseCaseSignUp
-import com.example.contact_book.data.resources.Resource
+import com.example.contact_book.resource.Resource
 import com.example.contact_book.domain.usecase.usecaseAuth.UseCaseActive
 import com.example.contact_book.domain.usecase.usecaseAuth.UseCaseLogin
 import com.example.contact_book.domain.usecase.usecaseAuth.UseCaseLogout

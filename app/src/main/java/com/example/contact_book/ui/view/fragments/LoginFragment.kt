@@ -11,7 +11,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.example.contact_book.R
-import com.example.contact_book.data.resources.Resource
+import com.example.contact_book.resource.Resource
 import com.example.contact_book.data.database.token.Token
 import com.example.contact_book.databinding.FragmentLoginBinding
 import com.example.contact_book.domain.model.Alert

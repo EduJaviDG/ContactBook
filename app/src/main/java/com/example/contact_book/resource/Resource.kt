@@ -1,4 +1,4 @@
-package com.example.contact_book.data.resources
+package com.example.contact_book.resource
 
 import java.lang.Exception
 

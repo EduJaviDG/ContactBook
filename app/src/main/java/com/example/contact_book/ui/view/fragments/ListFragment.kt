@@ -1,9 +1,7 @@
 package com.example.contact_book.ui.view.fragments
-import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.core.view.MenuHost
@@ -19,7 +17,7 @@ import com.example.contact_book.domain.model.Session
 import com.example.contact_book.data.database.user.User
 import com.example.contact_book.domain.model.Alert
 import com.example.contact_book.ui.view.activitys.AuthActivity
-import com.example.contact_book.ui.view.fragments.adapters.ListAdapter
+import com.example.contact_book.adapters.ListAdapter
 import com.example.contact_book.viewmodel.AuthViewModel
 import com.example.contact_book.viewmodel.TokenViewModel
 import com.example.contact_book.viewmodel.UserViewModel

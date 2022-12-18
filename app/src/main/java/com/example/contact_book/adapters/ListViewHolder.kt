@@ -1,4 +1,4 @@
-package com.example.contact_book.ui.view.fragments.adapters
+package com.example.contact_book.adapters
 
 import android.annotation.SuppressLint
 import android.view.View
