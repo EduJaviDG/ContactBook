@@ -101,43 +101,50 @@ class LoginFragment : Fragment() {
 
     private fun stateLogin(taskLogin: LiveData<Resource<FirebaseUser>?>) {
 
-            taskLogin.observe(this, Observer {  action ->
+            taskLogin.observe(this, object: Observer<Resource<FirebaseUser>?> {
 
-                when(action){
+                override fun onChanged(action: Resource<FirebaseUser>?) {
 
-                    is Resource.Error -> {
+                    when(action){
 
-                        binding.cvProgressL.visibility = View.INVISIBLE
+                        is Resource.Error -> {
 
-                        Alert.showError(action.exception.message.toString(),requireContext())
+                            binding.cvProgressL.visibility = View.INVISIBLE
 
-                    }
+                            Alert.showError(action.exception.message.toString(),requireContext())
 
-                    is Resource.Success -> {
+                            taskLogin.removeObserver(this)
 
-                        binding.cvProgressL.visibility = View.INVISIBLE
+                        }
 
-                        val tokenId = viewModelLogin.currentUser?.
-                                    getIdToken(true).toString()
+                        is Resource.Success -> {
 
-                        val tokenUid = viewModelLogin.currentUser?.uid.toString()
+                            binding.cvProgressL.visibility = View.INVISIBLE
 
-                        println("Token of current {$tokenId}")
+                            val tokenId = viewModelLogin.currentUser?.
+                            getIdToken(true).toString()
 
-                        val token = Token(uid = tokenUid, id = tokenId)
+                            val tokenUid = viewModelLogin.currentUser?.uid.toString()
 
-                        segueToApp(token)
+                            println("Token of current {$tokenId}")
 
-                    }
+                            val token = Token(uid = tokenUid, id = tokenId)
 
-                    Resource.inProgress -> {
+                            segueToApp(token)
 
-                        binding.cvProgressL.visibility = View.VISIBLE
+                            taskLogin.removeObserver(this)
+
+                        }
+
+                        Resource.inProgress -> {
+
+                            binding.cvProgressL.visibility = View.VISIBLE
+
+                        }
 
                     }
 
                 }
-
 
             })
 

@@ -33,6 +33,7 @@ import com.example.contact_book.viewmodel.UserViewModel
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.delay
 import java.util.regex.Pattern
 
 @AndroidEntryPoint
@@ -100,10 +101,6 @@ class UpdateFragment : Fragment() {
 
         loadData()
 
-        binding.btUpdateUser.setOnClickListener(listener)
-
-        binding.ivUpdateProfile.setOnClickListener(listener)
-
         inputValue( inputEditText = binding.etUpdateFirstName,
             inputLayout = binding.tiUpdateFirstName)
 
@@ -118,6 +115,10 @@ class UpdateFragment : Fragment() {
 
         inputValue( inputEditText = binding.etUpdateEnterprise,
             inputLayout = binding.tiUpdateEnterprise)
+
+        binding.btUpdateUser.setOnClickListener(listener)
+
+        binding.ivUpdateProfile.setOnClickListener(listener)
 
     }
 
@@ -150,7 +151,7 @@ class UpdateFragment : Fragment() {
         binding.ivUpdateProfile.setImageBitmap(args.currentUser.profilePhoto)
 
         if(args.currentUser.profilePhoto!!.height == 1 &&
-            args.currentUser.profilePhoto!!.width == 1 ){
+            args.currentUser.profilePhoto!!.width == 1 ) {
 
             binding.ivUpdateProfile.visibility = View.VISIBLE
 
@@ -272,6 +273,7 @@ class UpdateFragment : Fragment() {
 
             val phoneCheck = Pattern.compile(pattern.PHONE_PATTERN.toString())
 
+
             when (inputEditText.id){
 
                  R.id.etUpdateFirstName, R.id.etUpdateLastName, R.id.etUpdateEnterprise-> {
@@ -282,9 +284,13 @@ class UpdateFragment : Fragment() {
 
                             inputLayout.error = "Enter Value!"
 
+                            binding.btUpdateUser.isClickable = false
+
                         }else {
 
                             inputLayout.error = null
+
+                            binding.btUpdateUser.isClickable = true
 
                         }
 
@@ -300,9 +306,13 @@ class UpdateFragment : Fragment() {
 
                             inputLayout.error = "Enter Value!"
 
+                            binding.btUpdateUser.isClickable = false
+
                         }else {
 
                             inputLayout.error = null
+
+                            binding.btUpdateUser.isClickable = true
 
                         }
 
@@ -318,9 +328,13 @@ class UpdateFragment : Fragment() {
 
                             inputLayout.error = "Enter Value!"
 
-                        }else {
+                            binding.btUpdateUser.isClickable = false
+
+                        } else {
 
                             inputLayout.error = null
+
+                            binding.btUpdateUser.isClickable = true
 
                         }
 
@@ -329,7 +343,7 @@ class UpdateFragment : Fragment() {
                 }
 
             }
+
+        }
+
     }
-
-
-}
