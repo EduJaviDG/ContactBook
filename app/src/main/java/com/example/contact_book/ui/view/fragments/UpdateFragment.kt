@@ -15,6 +15,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.core.widget.doOnTextChanged
@@ -286,11 +287,25 @@ class UpdateFragment : Fragment() {
 
                             binding.btUpdateUser.isClickable = false
 
+                            binding.btUpdateUser.background =
+                                ContextCompat.getDrawable(requireContext(),
+                                    R.drawable.disabled_button)
+
+                            binding.btUpdateUser.setTextColor(ContextCompat.
+                            getColor(requireContext(),R.color.colorSilver))
+
                         }else {
 
                             inputLayout.error = null
 
                             binding.btUpdateUser.isClickable = true
+
+                            binding.btUpdateUser.background =
+                                ContextCompat.getDrawable(requireContext(),
+                                    R.drawable.button_style_2)
+
+                            binding.btUpdateUser.setTextColor(ContextCompat.
+                            getColor(requireContext(),R.color.white))
 
                         }
 
@@ -308,11 +323,25 @@ class UpdateFragment : Fragment() {
 
                             binding.btUpdateUser.isClickable = false
 
+                            binding.btUpdateUser.background =
+                                ContextCompat.getDrawable(requireContext(),
+                                    R.drawable.disabled_button)
+
+                            binding.btUpdateUser.setTextColor(ContextCompat.
+                            getColor(requireContext(),R.color.colorSilver))
+
                         }else {
 
                             inputLayout.error = null
 
                             binding.btUpdateUser.isClickable = true
+
+                            binding.btUpdateUser.background =
+                                ContextCompat.getDrawable(requireContext(),
+                                    R.drawable.button_style_2)
+
+                            binding.btUpdateUser.setTextColor(ContextCompat.
+                            getColor(requireContext(),R.color.white))
 
                         }
 
@@ -330,11 +359,25 @@ class UpdateFragment : Fragment() {
 
                             binding.btUpdateUser.isClickable = false
 
+                            binding.btUpdateUser.background =
+                                ContextCompat.getDrawable(requireContext(),
+                                    R.drawable.disabled_button)
+
+                            binding.btUpdateUser.setTextColor(ContextCompat.
+                            getColor(requireContext(),R.color.colorSilver))
+
                         } else {
 
                             inputLayout.error = null
 
                             binding.btUpdateUser.isClickable = true
+
+                            binding.btUpdateUser.background =
+                                ContextCompat.getDrawable(requireContext(),
+                                    R.drawable.button_style_2)
+
+                            binding.btUpdateUser.setTextColor(ContextCompat.
+                                getColor(requireContext(),R.color.white))
 
                         }
 

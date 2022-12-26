@@ -20,6 +20,7 @@
     <color name="success">#8cf504</color>
     <color name="colorPrimaryGradCent">#FF29A5E1</color>
     <color name="colorPrimaryGradEnd">#FF4DB0DF</color>
+    <color name="colorSilver">#C0C0C0</color>
     <color name="shadow">#66000000</color>
     <color name="text_pressed">#8A8688</color>
     <color name="colorAccentLight">#CC87A1</color>
