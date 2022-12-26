@@ -14,6 +14,7 @@ class ListAdapter(private val userList: List<User>, private val onClickListener:
 
         return ListViewHolder(layoutInflater.inflate(R.layout.item_row,parent,false))
 
+
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
