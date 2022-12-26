@@ -52,7 +52,9 @@ companion object{
 
         val dialog = builder.create().apply {
 
-            val backgroundDrawable = ContextCompat.getDrawable(context, R.drawable.custom_alert_error)
+            val backgroundDrawable = ContextCompat.getDrawable(context,
+                R.drawable.custom_alert_error
+            )
 
             window?.setBackgroundDrawable(backgroundDrawable)
         }

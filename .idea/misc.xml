@@ -4,13 +4,33 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/button_style.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/button_style3.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/button_style4.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/button_style_2.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/custom_alert_error.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_contact_book.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/input_list.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/input_recycler.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/pressed_button_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/pressed_button_3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/pressed_button_4.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/round_border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/round_button.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/round_button_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_image.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shadow_button.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shadow_button_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shadow_button_3.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/text_pressed.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/top_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/auth_activity.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/auth_activity.xml" value="0.18" />
         <entry key="app/src/main/res/layout/fragment_add.xml" value="0.1824074074074074" />
-        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.16203703703703703" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.16203703703703703" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.25" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1205" />

@@ -40,7 +40,6 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
 
     }
 
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -84,7 +83,7 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
 
             }
 
-        },viewLifecycleOwner, Lifecycle.State.RESUMED)
+        }, viewLifecycleOwner, Lifecycle.State.RESUMED)
 
         return inflater.inflate(R.layout.fragment_list,container,false)
 
