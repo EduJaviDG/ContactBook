@@ -17,10 +17,6 @@ Database --> Room
 
 Firebase --> Firebase Authentication, FireStore
 
-
-** You Should Select Master Branch for View and Download Code **
-
-
 ///////////////////////////////////////////////////////////////
 
 
